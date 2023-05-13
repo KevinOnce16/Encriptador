@@ -1,0 +1,72 @@
+body {
+    color: #E5E5E5;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+}
+
+.logo-alura {
+    width: 120px;
+    height: 48px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#entrada-texto {
+    width: 500px;
+    height: 300px;
+    margin-left: 240px;
+    margin-top: 40px;
+}
+
+#entrada-texto::placeholder {
+    color: #0A3871;
+    font-size: 31px;
+    align-items: flex-start;
+    margin-top: 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+/*Aviso de minusculas y acentos*/
+
+.importante {
+    color: #BDBDBD;
+    font-family: 'Inter', sans-serif;
+    margin-left: 240px;
+    margin-top: 10px;
+
+}
+
+/*Botones de encriptar y desencriptar*/
+
+.encriptar {
+    background-color: #00239C;
+    width: 330px;
+    height: 65px;
+    border-radius: 24px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.desencriptar {
+    background-color: #00239C;
+    width: 330px;
+    height: 65px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encriptar p{
+    font-family: 'Inter', sans-serif;    
+}
+
+.desencriptar p {
+    font-family: 'Inter', sans-serif;
+}
